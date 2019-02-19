@@ -1,0 +1,22 @@
+.collapsible {
+ background-color: blanchedalmond;
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: lightblue;
+  width: 100%;
+  border-radius: 8px;
+}
