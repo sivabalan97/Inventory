@@ -23,18 +23,24 @@
 					<div class="form-group">
 						<div class="row vertical-me">
 							<div class="col-md-2 form-label"> <label>Division</label> </div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<select class="form-control" id="division-select">
 									<option value="" disabled selected>Division</option>
 								</select>
-							</div>	
+							</div>
+								<div class="col-md-1">	
+								<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
+								</div>
 						</div>
 						<div class="row vertical-me">
 							<div class="col-md-2 form-label"> <label>Section</label> </div>
-							<div class="col-md-10">
+							<div class="col-md-9">
 								<select class="form-control" id="section-select">
 									<option value="" disabled selected>Section</option>
 								</select>
+							</div>
+							<div class="col-md-1">	
+								<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
 							</div>
 						</div>
 						<div class="row vertical-me">
@@ -54,9 +60,9 @@
 							<div class="panel with-nav-tabs panel-info">
 								<div class="panel-heading">
 									<ul class="nav nav-tabs">
-										<li class="active"><a href="#tab1info" data-toggle="tab">Allocation</a></li>
+										<li class="active"><a href="#tab1info" data-toggle="tab">Default</a></li>
 										<li><a href="#tab2info" data-toggle="tab">Additonal</a></li>
-										<li><a href="#tab3info" data-toggle="tab">Default</a></li>
+										<li><a href="#tab3info" data-toggle="tab">Allocation</a></li>
 									</ul>
 								</div>
 								<div class="panel-body">
@@ -112,17 +118,25 @@
 													<div class="col-md-3">
 														<label for="" class="form-label">Required Categories</label>
 													</div>
-													<div class="col-md-9">
-														<select name="" id="" class="form-control">
-															<option value=""></option>
+													<div class="col-md-8">
+														<select name=""  class="form-control" id="Reqcat" >
+															<option value="" disabled selected>Choose your country</option>
+																	<option value="1">USA</option>
+																	<option value="2">Germany</option>
+																	<option value="3">France</option>
+																	<option value="4">Poland</option>
+																	<option value="5">Japan</option>
 														</select>
+													</div>
+													<div class="col-md-1">	
+														<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
 													</div>
 												</div>
 												<div class="row vertical-me">
 													<div class="col-md-3">
 														<label for="" class="form-label">Mandatory Categories</label>
 													</div>
-													<div class="col-md-9">
+													<div class="col-md-8">
 														<select name="" id="" class="form-control">
 															<option value=""></option>
 														</select>
@@ -132,30 +146,39 @@
 													<div class="col-md-3">
 														<label for="" class="form-label">Tax Name</label>
 													</div>
-													<div class="col-md-9">
+													<div class="col-md-8">
 														<select name="" id="" class="form-control">
 															<option value=""></option>
 														</select>
+													</div>
+													<div class="col-md-1">	
+														<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
 													</div>
 												</div>
 												<div class="row vertical-me">
 													<div class="col-md-3">
 														<label for="" class="form-label">Aging Name</label>
 													</div>
-													<div class="col-md-9">
+													<div class="col-md-8">
 														<select name="" id="" class="form-control">
 															<option value=""></option>
 														</select>
+													</div>
+													<div class="col-md-1">	
+														<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
 													</div>
 												</div>
 												<div class="row vertical-me">
 													<div class="col-md-3">
 														<label for="" class="form-label">Margin Rule</label>
 													</div>
-													<div class="col-md-9">
+													<div class="col-md-8">
 														<select name="" id="" class="form-control">
 															<option value=""></option>
 														</select>
+													</div>
+													<div class="col-md-1">	
+														<i class="glyphicon glyphicon-plus-sign icon-md form-label col-md-2"></i>
 													</div>
 												</div>
 												<div class="row vertical-me">
@@ -252,14 +275,51 @@
 												</div>
 											</div>
 										</div>
-										<div class="tab-pane fade" id="tab2info">Info 2</div>
-										<div class="tab-pane fade" id="tab3info">Info 3</div>
+										<div class="tab-pane fade" id="tab2info"> 
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Enable Lot No</label>
+											</div>	
+											</div>
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Allow Price Edit</label>
+											</div>	
+											</div>	
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Allow Replenishment</label>
+											</div>	
+											</div>
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Allow Forecasting</label>
+											</div>	
+											</div>		
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Weightage Product</label>
+											</div>
+											</div>	
+											<div class="col-md-12">
+											<div class="checkbox">
+												<label><input type="checkbox" value="">Taxation Based On Price Slab</label>
+											</div>	
+											</div>
+											</div>	
+											<div class="tab-pane fade" id="tab3info">	Test							
+									
+											</div>						
+										</div>
+										
 									</div>
 									</div>
+									<div class="tab-pane fade" id="tab3info">
+										</div>
 								</div>
 							</div>
 						</div>
-				</div>
+				
 				<!-- Tree View -->
 				<div class="col-md-4">		
 						<div class="row vertical-me">
@@ -274,115 +334,114 @@
 								</div>
 								<div class="col-md-3">
 										<input type="button" value="Collapse All" class="btn btn-link">
-								</div>
-								
+								</div>								
 							</div> 
 					
 						<button class="collapsible">Mens</button>
 						<div class="content">
 						<ul>
-						  Shirts
-						</ul>
-						  <li>
-						  Trouser
-						  <li class="collapsible">Bottom Wear</li>
-						  <div class="content">
-							<li>
-							Shorts
-							</li>
-							<li>
-							Formals
-							</li>
-							<li>
-							Casuals
-							</li>
-						  </div>
-						  </li>
-						  <li>
-							Party Wear
-							<li class="collapsible">Designer Suits</li>
-						  <div class="content">
-							<li>
-							Coat
-							</li>
-							<li>
-							Sharwani
-							</li>
-							<li>
-							Jippa Set
-							</li>
-						  </div>
-						  </li>
-							<li>
-							Tracks
-							</li>
-							<li>
-							Inners
-							</li>
-							<li>
-							Accessories
-							</li>
-							<li>
-							Jean Items
-							</li>
+						Shirts
+					    </ul>
+						<li>
+						Trouser
+						<li class="collapsible">Bottom Wear</li>
+						<div class="content">
+						<li>
+						Shorts
+						</li>
+						<li>
+						Formals
+						</li>
+						<li>
+						Casuals
+						</li>
+						</div>
+						</li>
+						<li>
+						Party Wear
+						<li class="collapsible">Designer Suits</li>
+						<div class="content">
+						<li>
+						Coat
+						</li>
+						<li>
+						Sharwani
+						</li>
+						<li>
+						Jippa Set
+						</li>
+						</div>
+						</li>
+						<li>
+						Tracks
+						</li>
+						<li>
+						Inners
+						</li>
+						<li>
+						Accessories
+						</li>
+						<li>
+						Jean Items
+						</li>
 						</div>
 						<button class="collapsible">Ladies</button>
 						<div class="content">
 						 <li>
-						  		Tops
+						Tops
 						</li>
 						<li>
-						  		Bottom
-						  </li>
-						  <li>
-						  		Sarees
-						  </li>
-						  <li>
-								Chudithar
+						Bottom
 						</li>
 						<li>
-								choli
+						Sarees
 						</li>
 						<li>
-								Patyala
+						Chudithar
 						</li>
 						<li>
-								Western Wear
+						choli
+						</li>
+						<li>
+						Patyala
+						</li>
+						<li>
+						Western Wear
 						</li>
 						</div>
 						<button class="collapsible">Kids</button>
 						<div class="content">
-						  <li>
-						  Shirts
-						  </li>
-						  <li>
-						  Trousers
-						  </li>
-						  <li>
-						  Coat
-						  </li>
-						  <li>
-							Traks
-							</li>
-							<li>
-							Inners
-							</li>
-							<li>
-							Accessories
-							</li>
-							<li>
-							Full Set
-							</li>
-							<li>
-							Party Wear
-							</li>
+						<li>
+						Shirts
+						</li>
+						<li>
+						Trousers
+						</li>
+						<li>
+						Coat
+						</li>
+						<li>
+						Traks
+						</li>
+						<li>
+						Inners
+						</li>
+						<li>
+						Accessories
+						</li>
+						<li>
+						Full Set
+						</li>
+						<li>
+						Party Wear
+						</li>
 						</div>							
 				</div>
 							  
   			</div>
 				
 			</div>
-			
+	</div>
 		</div>	  	
 	</div>
 	<!-- Script Sources -->

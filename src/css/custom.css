@@ -10,8 +10,6 @@
   font-size: 15px;
   border-radius: 12px;
 }
-
-
 .content {
   padding: 0 18px;
   display: none;
@@ -19,4 +17,8 @@
   background-color: lightblue;
   width: 100%;
   border-radius: 8px;
+}
+i
+{
+   color:rgb(59, 180, 228);   
 }
